@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!--Самая высокая шапка-->
+    <!--ШАПКА-->
     <header class="header">
       <div class="container header-container">
         <a
@@ -35,14 +35,15 @@
           rel="noopener noreferer nofollow"
           href="index.html"
         >
-          Web<span class="dark-logo">Studio</span>
+        <!-- ОПЯТЬ В СПАНЕ НЕ ПОНЯТНО ЧТО ДЕЛАТЬ -->
+          Web<span class="web__logo">Studio</span>
         </a>
-
+<!-- ТУТ СТОЛБНЯК Я НЕ РАЗОБРАЛСЯ!!!!!!!!!!! В ЛИНКАХ -->
         <nav class="nav">
-          <ul class="nav-menu">
-            <li class="nav-menu-elem">
+          <ul class="nav__list">
+            <li class="nav__item">
               <a
-                class="active-studio nav-menu-link link"
+                class="active-studio nav__link link"
                 target="_blank"
                 rel="noopener noreferer nofollow "
                 href="index.html"
@@ -50,7 +51,7 @@
                 Студия
               </a>
             </li>
-            <li class="nav-menu-elem">
+            <li class="nav__item">
               <a
                 class="nav-menu-link link"
                 target="_blank"
@@ -60,7 +61,7 @@
                 Портфолио
               </a>
             </li>
-            <li class="nav-menu-elem">
+            <li class="nav__item">
               <a
                 class="nav-menu-link link"
                 target="_blank"
@@ -72,28 +73,28 @@
             </li>
           </ul>
         </nav>
-        <ul class="contacts">
-          <li class="contacts-elem">
+        <ul class="contacts__list">
+          <li class="contacts__item">
             <a
-              class="contacts-link link"
+              class="contacts__link link"
               target="_blank"
               rel="noopener noreferer nofollow"
               href="mailto:info@devstudio.com"
             >
-              <svg class="contacts-icon" width="16" height="12">
+              <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="contacts-elem">
+          <li class="contacts__item">
             <a
-              class="contacts-link link"
+              class="contacts__link link"
               target="_blank"
               rel="noopener noreferer nofollow"
               href="tel:+380991111111"
             >
-              <svg class="contacts-icon" width="10" height="16">
+              <svg class="contacts__icon" width="10" height="16">
                 <use href="./images/icons.svg#smartphone"></use>
               </svg>
               +38 099 111 11 11
@@ -102,30 +103,31 @@
         </ul>
       </div>
     </header>
+    <!-- СЕКЦИЯ КНОПОК -->
     <section class="section">
       <div class="container">
-        <ul class="button-menu">
-          <li class="button-item">
+        <ul class="button__list">
+          <li class="button__item">
             <button class="button-portfolio active-port-button" type="button">
               Все
             </button>
           </li>
-          <li class="button-item">
+          <li class="button__item">
             <button class="button-portfolio" type="button">Веб-сайты</button>
           </li>
-          <li class="button-item">
+          <li class="button__item">
             <button class="button-portfolio" type="button">Приложения</button>
           </li>
-          <li class="button-item">
+          <li class="button__item">
             <button class="button-portfolio" type="button">Дизайн</button>
           </li>
-          <li class="button-item">
+          <li class="button__item">
             <button class="button-portfolio" type="button">Маркетинг</button>
           </li>
         </ul>
-
-        <ul class="port-img-list">
-          <li class="port-img-item">
+<!-- СЕКЦИЯ КАРТОЧЕК -->
+        <ul class="card__list">
+          <li class="card__item">
             <div class="img-wrapper">
               <img
                 class="portfolio-img"
@@ -144,7 +146,7 @@
               <p class="portfolio-site-theme">Веб-сайт</p>
             </div>
           </li>
-          <li class="port-img-item">
+          <li class="card__item">
             <div class="img-wrapper">
               <img
                 class="portfolio-img"
@@ -165,7 +167,7 @@
               <p class="portfolio-site-theme">Дизайн</p>
             </div>
           </li>
-          <li class="port-img-item">
+          <li class="card__item">
             <div class="img-wrapper">
               <img
                 class="portfolio-img"
@@ -184,7 +186,7 @@
               <p class="portfolio-site-theme">Приложение</p>
             </div>
           </li>
-          <li class="port-img-item">
+          <li class="card__item">
             <div class="img-wrapper">
               <img
                 class="portfolio-img"
@@ -203,7 +205,7 @@
               <p class="portfolio-site-theme">Маркетинг</p>
             </div>
           </li>
-          <li class="port-img-item">
+          <li class="card__item">
             <div class="img-wrapper">
               <img
                 class="portfolio-img"
@@ -222,7 +224,7 @@
               <p class="portfolio-site-theme">Приложение</p>
             </div>
           </li>
-          <li class="port-img-item">
+          <li class="card__item">
             <div class="img-wrapper">
               <img
                 class="portfolio-img"
@@ -241,7 +243,7 @@
               <p class="portfolio-site-theme">Веб-сайт</p>
             </div>
           </li>
-          <li class="port-img-item">
+          <li class="card__item">
             <div class="img-wrapper">
               <img
                 class="portfolio-img"
@@ -259,7 +261,7 @@
               <p class="portfolio-site-theme">Дизайн</p>
             </div>
           </li>
-          <li class="port-img-item">
+          <li class="card__item">
             <div class="img-wrapper">
               <img
                 class="portfolio-img"
@@ -278,7 +280,7 @@
               <p class="portfolio-site-theme">Маркетинг</p>
             </div>
           </li>
-          <li class="port-img-item">
+          <li class="card__item">
             <div class="img-wrapper">
               <img
                 class="portfolio-img"
@@ -312,7 +314,7 @@
             rel="noopener noreferer nofollow"
             href="index.html"
           >
-            Web<span class="footer-logo">Studio</span>
+            Web<span class="web__logo">Studio</span>
           </a>
           <address class="address" href="https://goo.gl/maps/Lm4q9FQ3WHK1BDp89">
             г. Киев, пр-т Леси Украинки, 26
