@@ -712,9 +712,9 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-/* .is-hidden {
+.is-hidden {
   display: none;
-} */
+}
 
 .hrest {
   fill: currentColor;
